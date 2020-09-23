@@ -1,0 +1,109 @@
+.card-title{
+    text-align: center;
+     font-family:Roboto,Arial,sans-serif;
+     font-size: 2rem;
+     line-height: 3.2rem;
+     border: 1px solid rgb(19, 18, 18);
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s easy;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+
+
+
+.navbar-brand{
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/*.nav-item a:hover{
+    color: white;
+    background-color: black;
+}*/
+
+.navbar{
+    position: absolute;
+    background-color: transparent!important;
+    width: 100%;
+    z-index: 10;
+}
+
+.search-bar{
+    position: absolute;
+    z-index: 1;
+    top: 100;
+    width: 100%;
+}
+
+.nav-link{
+    color:white!important;
+    margin-right: 5px;
+    font-family: serif;
+    font-size: 1.4rem;
+}
+
+.nav-link:hover{
+    color:#9b0000!important;
+    
+}
+
+.phone, .email{
+    margin-right: 5px;
+}
+
+.phone{
+    color: #03A9F4;
+}
+
+.email{
+    color: ;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f{
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 0px 1.2rem;
+   
+}
+
+.f2{
+    color: rgb(38, 5, 100);
+    font-size: 1rem;
+    text-transform: lowercase;
+}
+
+.container{
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.card:hover{
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+
+
+
